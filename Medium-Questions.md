@@ -2,6 +2,7 @@
 
 ### 6. List the Company name and the number of calls for those companies with more than 18 calls.
 
+```SQL
 select c.company_name, count(*) as CC
 from Customer c
 inner join Caller cc
@@ -10,7 +11,7 @@ inner join Issue i
 on cc.caller_id = i.caller_id
 group by c.company_name
 having count(*) > 18
-
+```
 
 ### 7. Find the callers who have never made a call. Show first name and last name
 
