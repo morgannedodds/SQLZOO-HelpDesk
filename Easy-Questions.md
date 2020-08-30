@@ -1,4 +1,4 @@
-
+---ERD Diagram : https://sqlzoo.net/wiki/Help_Desk
 
 ### 1. There are three issues that include the words "index" and "Oracle". Find the call_date for each of them
 
